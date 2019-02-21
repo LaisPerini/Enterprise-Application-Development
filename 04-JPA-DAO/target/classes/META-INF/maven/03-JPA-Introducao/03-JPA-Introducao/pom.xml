@@ -29,7 +29,7 @@
 			<artifactId>jdbc-driver</artifactId>
 			<version>12</version>
 			<scope>system</scope>
-			<systemPath>D:/ojdbc8.jar</systemPath>
+			<systemPath>D:/Documentos/Opensource/ojdbc8.jar</systemPath>
 		</dependency>
 	</dependencies>
 </project>

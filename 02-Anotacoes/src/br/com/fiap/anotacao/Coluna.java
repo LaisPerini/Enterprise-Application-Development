@@ -5,13 +5,11 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Retention(RetentionPolicy.RUNTIME)// MANTEM A ANOTACAO ATÉ A EXECUÇÃO
-@Target(ElementType.FIELD) //SOMENTE PARA ATRIBUTOS 
+@Retention(RetentionPolicy.RUNTIME)//mantem a notação até a execução
+@Target(ElementType.FIELD) //somente para os atributos
 public @interface Coluna {
-	
-	String nome ();
-	
+
+	String nome();
 	boolean obrigatorio();
 	
-
 }

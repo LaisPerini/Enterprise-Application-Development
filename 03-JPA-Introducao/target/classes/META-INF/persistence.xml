@@ -5,18 +5,16 @@
 		<properties>
 			<property name="hibernate.show_sql" value="true"/>
 			<property name="hibernate.format_sql" value="true" />
-			
 			<!-- 
-			UPDATE: ALTER TABLE/CREATE 
-			CREATE: DROP E CREATE
-			VALIDATE: VALIDA AS CLASSES COM AS TABELAS  
+				update: alter table/create
+				create: drop e create
+				validate: valida as classes com as tabelas
 			 -->
-			 
 			<property name="hibernate.hbm2ddl.auto" value="update"/>
 			<property name="hibernate.dialect" value="org.hibernate.dialect.Oracle12cDialect"/>
-			<property name="javax.persistence.jdbc.user" value="RM75973"/>
-			<property name="javax.persistence.jdbc.password" value="291095"/>
-			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl"/>
+			<property name="javax.persistence.jdbc.user" value="SYSTEM"/>
+			<property name="javax.persistence.jdbc.password" value="46825000"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
 		</properties>	
 	</persistence-unit>
 </persistence>
